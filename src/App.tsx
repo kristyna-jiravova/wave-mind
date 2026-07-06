@@ -1,10 +1,28 @@
-import "./App.css";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Home } from './components/Home';
+import { Shop } from './components/Shop';
+import { About } from './components/About;
+import { Contact } from './components/Contact';
+import { Layout } from './components/Layout';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'shop', element: <Shop /> },
+      { path: 'about', element: <About /> },
+      { path: 'contact', element: <Contact /> },
+    ],
+  },
+]);
 
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-100">
-      <h1 className="text-6xl font-bold text-cyan-700">Wave Mind</h1>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 
