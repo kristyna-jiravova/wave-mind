@@ -14,6 +14,21 @@ const eslintConfig = defineConfig([
       curly: ["error", "all"],
       "no-nested-ternary": "error",
       "no-unsafe-optional-chaining": "error",
+
+      // Additional rules from mentoring setup
+      "arrow-body-style": "off",
+      "no-unneeded-ternary": ["error", { defaultAssignment: false }],
+      "newline-before-return": "error",
+      "no-useless-return": "error",
+      "dot-notation": "error",
+      yoda: "error",
+      "object-shorthand": "error",
+      "prefer-const": "error",
+      "no-var": "error",
+      "spaced-comment": "error",
+      "react/jsx-boolean-value": "error",
+      "react/self-closing-comp": "error",
+      "react/jsx-curly-brace-presence": "error",
     },
   },
 
