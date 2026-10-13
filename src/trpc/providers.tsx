@@ -3,10 +3,13 @@
 import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createTRPCClient, httpBatchLink } from "@trpc/client";
+
 import type { AppRouter } from "@/server/api/root";
 import { TRPCProvider } from "./client";
 
-export function Providers({ children }: { children: React.ReactNode }) {
+type ProviderProps = { children: React.ReactNode };
+
+export const Providers = ({ children }: ProviderProps) => {
   const [queryClient] = useState(() => new QueryClient());
 
   const [trpcClient] = useState(() =>

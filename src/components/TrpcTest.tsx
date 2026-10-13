@@ -1,9 +1,10 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
+
 import { useTRPC } from "@/trpc/client";
 
-export function TrpcTest() {
+export const TrpcTest = () => {
   const trpc = useTRPC();
 
   const { data, isLoading, error } = useQuery(trpc.test.greet.queryOptions({ name: "Kristyna" }));
@@ -17,4 +18,4 @@ export function TrpcTest() {
   }
 
   return <p>{data?.message}</p>;
-}
+};

@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import { TrpcTest } from "@/components/TrpcTest";
 
 export default function Home() {
