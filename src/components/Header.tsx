@@ -6,11 +6,13 @@ import Image from "next/image";
 import { UserRound, ShoppingBasket, Menu } from "lucide-react";
 
 export const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
 
   const handleScroll = () => {
-    setIsScrolled(window.scrollY > 50);
+    setScrollY(window.scrollY);
   };
+
+  const opacity = 0.3 + Math.min(scrollY / 100, 1) * 0.5;
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -23,10 +25,11 @@ export const Header = () => {
   return (
     <header className="relative h-75 sm:h-100 lg:h-137.5">
       <div
-        className={`fixed top-0 h-16 md:h-20 z-50 w-full flex items-center md:justify-center ${isScrolled ? "bg-white/80 backdrop-blur-md" : "bg-transparent"} px-8 py-0`}
+        className="fixed top-0 z-50 flex h-16 w-full px-4 items-center backdrop-blur-sm md:h-20 md:justify-center"
+        style={{ backgroundColor: `rgba(255, 255, 255, ${opacity})` }}
       >
-        <nav className="flex gap-8 text-[#173851]">
-          <ul className="hidden md:flex items-center gap-8 font-semibold">
+        <nav className="flex gap-8 text-oxblood">
+          <ul className="hidden items-center gap-8 font-semibold md:flex">
             <li>
               <a href="/shop">Shop</a>
             </li>
@@ -46,18 +49,25 @@ export const Header = () => {
             >
               <Menu size={18} />
             </button>
-            <UserRound size={18} />
-            <ShoppingBasket size={18} />
+
+            <Link href="/login" aria-label="User login">
+              <UserRound size={18} />
+            </Link>
+
+            <Link href="/cart" aria-label="Shopping cart">
+              <ShoppingBasket size={18} />
+            </Link>
+            
           </div>
         </nav>
 
-        <Link href="/" className="absolute right-8 top-0">
+        <Link href="/" className="absolute top-0 right-8">
           <Image
             src="/images/logo_navy.svg"
             alt="logo_navy"
             width={160}
             height={40}
-            className="w-24 md:w-32 h-auto"
+            className="h-auto w-24 md:w-32"
             loading="eager"
           />
         </Link>

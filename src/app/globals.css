@@ -8,6 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-navy: #173851;
+  --color-oxblood: #6D2932;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -18,53 +20,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* 1. Use a more-intuitive box-sizing model */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-/* 2. Remove default margin */
-*:not(dialog) {
-  margin: 0;
-}
-
-/* 3. Enable keyword animations */
+/* Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
   html {
     interpolate-size: allow-keywords;
   }
 }
 
-body {
-  /* 4. Increase line-height */
-  line-height: 1.5;
-  /* 5. Improve text rendering */
-  -webkit-font-smoothing: antialiased;
-}
-
-/* 6. Improve media defaults */
-img,
-picture,
-video,
-canvas,
-svg {
+/* Improve media defaults */
+picture {
   display: block;
   max-width: 100%;
 }
 
-/* 7. Inherit fonts for form controls */
-input,
-button,
-textarea,
-select {
-  font: inherit;
+canvas,
+svg {
+  max-width: 100%;
 }
 
-/* 8. Avoid text overflows */
+/* Avoid text overflows */
 p,
 h1,
 h2,
@@ -75,10 +49,11 @@ h6 {
   overflow-wrap: break-word;
 }
 
-/* 9. Improve line wrapping */
+/* Improve line wrapping */
 p {
   text-wrap: pretty;
 }
+
 h1,
 h2,
 h3,
@@ -88,9 +63,7 @@ h6 {
   text-wrap: balance;
 }
 
-/*
-  10. Create a root stacking context
-*/
+/* Create a root stacking context */
 #root,
 #__next {
   isolation: isolate;
