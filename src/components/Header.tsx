@@ -28,7 +28,7 @@ export const Header = () => {
         className="fixed top-0 z-50 flex h-16 w-full px-4 items-center backdrop-blur-sm md:h-20 md:justify-center"
         style={{ backgroundColor: `rgba(255, 255, 255, ${opacity})` }}
       >
-        <nav className="flex gap-8 text-oxblood">
+        <nav className="flex gap-8 text-navy">
           <ul className="hidden items-center gap-8 font-semibold md:flex">
             <li>
               <a href="/shop">Shop</a>
@@ -44,7 +44,7 @@ export const Header = () => {
           <div className="flex items-center gap-3">
             <button
               type="button"
-              className="flex items-center justify-center md:hidden"
+              className="flex cursor-pointer items-center justify-center md:hidden"
               aria-label="Open and close menu"
             >
               <Menu size={18} />
