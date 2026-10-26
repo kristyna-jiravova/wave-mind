@@ -1,0 +1,29 @@
+{
+  "navigation": {
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "signOut": "Sign Out",
+    "cart": "Shopping cart"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "welcome": "Welcome to Wave Mind",
+    "tagline": "A little closer to the sea",
+    "signInPrompt": "Sign in to your account",
+    "signUpPrompt": "Create a new account",
+    "emailPlaceholder": "your@email.com",
+    "passwordPlaceholder": "••••••••",
+    "fillAllFields": "Please fill in all fields",
+    "signUpSuccess": "Account created successfully!",
+    "signUpError": "Error signing up",
+    "signInSuccess": "Signed in successfully!",
+    "signInError": "Error signing in"
+  },
+  "logo": {
+    "alt": "WAVE MIND homepage"
+  }
+}
