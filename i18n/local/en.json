@@ -25,5 +25,13 @@
   },
   "logo": {
     "alt": "WAVE MIND homepage"
+  },
+  "footer": {
+    "shipping": "Shipping & Returns",
+    "sizeGuide": "Size Guide",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms & Conditions",
+    "motto": "Inspired by the sea",
+    "copyright": "© 2026 Wave Mind"
   }
 }
