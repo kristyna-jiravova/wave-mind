@@ -8,30 +8,7 @@ export const Footer = () => {
       <div className="mx-auto w-full max-w-4xl">
         <div className="flex flex-col gap-6 md:flex-row md:justify-between md:px-16">
           <div className="text-sm">
-            <p className="max-w-220px text-sm leading-6 text-white/90"> {en.footer.motto}</p>
-            {/* TODO: Add Instagram link when the profile is ready.
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-              >
-                <g
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                >
-                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-                  <path d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01" />
-                </g>
-              </svg>
-            </a> 
-            */}
+            <p className="max-w-220px text-sm leading-6 text-white/90">{en.footer.motto}</p>
           </div>
 
           <nav
