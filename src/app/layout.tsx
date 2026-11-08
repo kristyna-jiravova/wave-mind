@@ -5,7 +5,7 @@ import "./globals.css";
 import { Providers } from "@/trpc/providers";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { NewsLetter } from "@/components/NewsLetter";
+import { Newsletter } from "@/components/Newsletter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +29,7 @@ const RootLayout = ({ children }: LayoutProps<"/">) => {
         <Providers>
           <Header />
           <main className="flex-1">{children}</main>
-          <NewsLetter />
+          <Newsletter />
           <Footer />
         </Providers>
       </body>
