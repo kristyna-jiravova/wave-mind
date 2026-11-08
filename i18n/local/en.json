@@ -33,5 +33,16 @@
     "termsAndConditions": "Terms & Conditions",
     "motto": "Inspired by the sea",
     "copyright": "© 2026 Wave Mind"
+  },
+  "newsletter": {
+    "title": "Subscribe to our Newsletter",
+    "description": "Get the latest updates and offers.",
+    "emailPlaceholder": "Enter your email",
+    "emailLabel": "Email",
+    "subscribeButton": "Subscribe",
+    "successMessage": "Thank you for subscribing!",
+    "errorMessage": "There was an error. Please try again.",
+    "alreadySubscribedMessage": "This email is already subscribed.",
+    "backgroundImageAlt": "Newsletter background image"
   }
 }
