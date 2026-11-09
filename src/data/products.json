@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Freestyler T-Shirt - Design 1",
+    "price": 39.99,
+    "currency": "EUR",
+    "image": "freestyler-beige-1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Freestyler T-Shirt - Design 2",
+    "price": 39.99,
+    "currency": "EUR",
+    "image": "freestyler-french-navy-2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Nova Vintage T-Shirt - Design 1",
+    "price": 34.99,
+    "currency": "EUR",
+    "image": "nova-vintage-light-blue-1.webp"
+  },
+  {
+    "id": 4,
+    "name": "Tote Bag W345 - Design 2",
+    "price": 28.99,
+    "currency": "EUR",
+    "image": "W345bag-2.webp"
+  },
+  {
+    "id": 5,
+    "name": "Tote Bag W345 - Design 1",
+    "price": 28.99,
+    "currency": "EUR",
+    "image": "W345bag-1.webp"
+  },
+  {
+    "id": 6,
+    "name": "Socks",
+    "price": 18.99,
+    "currency": "EUR",
+    "image": "socks.webp"
+  }
+]
