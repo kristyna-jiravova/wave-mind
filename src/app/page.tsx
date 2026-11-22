@@ -1,8 +1,11 @@
+import { Carousel } from "@/components/Carousel";
+import { Gallery } from "@/components/Gallery";
+
 export default function Home() {
   return (
-    <main className="min-h-[200vh]">
-      <h1>Homepage WAVE MIND</h1>
-      <p>Tady bude obsah úvodní stránky.</p>
-    </main>  
+    <main>
+      <Carousel />
+      <Gallery />
+    </main>
   );
-};
+}
