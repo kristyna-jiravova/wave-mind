@@ -2,43 +2,67 @@
   {
     "id": 1,
     "name": "Freestyler T-Shirt - Design 1",
+    "slug": "freestyler-t-shirt-design-1",
     "price": 39.99,
     "currency": "EUR",
-    "image": "freestyler-beige-1.webp"
+    "image": "freestyler-beige-1.webp",
+    "description": "A relaxed-fit, unisex heavyweight T-shirt made from 100% organic cotton. With a substantial 240 g/m² fabric and a characteristic dry handfeel, it's ideal for everyday wear.",
+    "colors": ["Natural"],
+    "sizes": ["XS", "S", "M", "L"]
   },
   {
     "id": 2,
     "name": "Tote Bag W345 - Design 1",
+    "slug": "tote-bag-w345-design-1",
     "price": 28.99,
     "currency": "EUR",
-    "image": "W345bag-1.webp"
+    "image": "W345bag-1.webp",
+    "description": "A practical everyday bag made from 100% recycled cotton with a washed finish. Featuring sturdy double-stitched seams and long handles, it can be comfortably carried by hand or over the shoulder.",
+    "colors": ["Light Blue"],
+    "sizes": []
   },
   {
     "id": 3,
     "name": "Socks",
+    "slug": "socks",
     "price": 18.99,
     "currency": "EUR",
-    "image": "socks.webp"
+    "image": "socks.webp",
+    "description": "High-cut socks with elastic ribbed cuffs and WAVE MIND embroidery.",
+    "colors": ["White", "Black"],
+    "sizes": []
   },
   {
     "id": 4,
     "name": "Freestyler T-Shirt - Design 2",
+    "slug": "freestyler-t-shirt-design-2",
     "price": 39.99,
     "currency": "EUR",
-    "image": "freestyler-french-navy-2.webp"
+    "image": "freestyler-french-navy-2.webp",
+    "description": "A relaxed-fit, unisex heavyweight T-shirt made from 100% organic cotton. With a substantial 240 g/m² fabric and a characteristic dry handfeel, it's ideal for everyday wear.",
+    "colors": ["French Navy"],
+    "sizes": ["XS", "S", "M", "L"]
   },
   {
     "id": 5,
     "name": "Tote Bag W345 - Design 2",
+    "slug": "tote-bag-w345-design-2",
     "price": 28.99,
     "currency": "EUR",
-    "image": "W345bag-2.webp"
+    "image": "W345bag-2.webp",
+    "description": "A practical everyday bag made from 100% recycled cotton with a washed finish. Featuring sturdy double-stitched seams and long handles, it can be comfortably carried by hand or over the shoulder.",
+    "colors": ["Vintage Oxblood"],
+    "sizes": []
   },
   {
     "id": 6,
     "name": "Nova Vintage T-Shirt - Design 1",
+    "slug": "nova-vintage-t-shirt-design-1",
     "price": 34.99,
     "currency": "EUR",
-    "image": "nova-vintage-light-blue-1.webp"
+    "image": "nova-vintage-light-blue-1.webp",
+    "description": "Made from 100% organic cotton with a softly washed vintage look. Thanks to its garment-dyed finish and subtly faded seams, each piece has its own unique character.",
+    "colors": ["Vintage Light Blue"],
+    "sizes": ["XS", "S", "M", "L"]
   }
 ]

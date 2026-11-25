@@ -44,5 +44,8 @@
     "errorMessage": "There was an error. Please try again.",
     "alreadySubscribedMessage": "This email is already subscribed.",
     "backgroundImageAlt": "Newsletter background image"
+  },
+  "product": {
+    "addToBag": "Add to bag"
   }
 }
